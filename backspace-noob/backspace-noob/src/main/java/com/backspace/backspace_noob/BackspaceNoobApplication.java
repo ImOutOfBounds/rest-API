@@ -9,5 +9,4 @@ public class BackspaceNoobApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BackspaceNoobApplication.class, args);
 	}
-
 }

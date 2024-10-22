@@ -9,7 +9,7 @@ import jakarta.persistence.Column;
 
 @Entity
 @Table(name = "books")
-public class Book {
+public class BookModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,7 +19,7 @@ public class Book {
     private String name;
 
     @Column(name = "stars", nullable = false)
-    private Long stars; // Considere usar Integer se as estrelas forem um valor inteiro.
+    private Long stars;
 
     @Column(nullable = false)
     private String summary;
